@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600;1,700&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+
+        /* h1{
+   text-align: center;
+   background: blue;
+   margin: 40px auto;
+   background-blend-mode: darken;
+
+    
+
+
+} */
+        body {
+
+            background-image: url(../static/1462850.jpg);
+            background-position: center;
+            background-size: 1920 1200;
+            background-repeat: no-repeat;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+        .form-box {
+            width: 350px;
+            box-shadow: 0 0 10px 0 #000;
+            margin: 100px auto;
+            background: #fff;
+            padding: 50px 25px;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            border-radius: 30px;
+            outline: none;
+            border: 1px solid #999;
+        }
+
+
+        label {
+
+            position: absolute;
+            top: -5px;
+            left: 10px;
+            background: #000;
+            color: #fff;
+            border-start-end-radius: 20%;
+        }
+
+
+        .input-group {
+            margin: 20px auto;
+            position: relative;
+
+        }
+
+        button {
+
+            padding: 10px 20px;
+            border: none;
+            background: red;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+
+        /* button:hover {
+            background: black;
+            text-replace: 0.5;
+
+        } */
+
+        h2 {
+            text-align: center;
+
+
+        }
+
+        p {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .social img {
+
+            width: 40px;
+            margin: 0px 6px;
+            cursor: pointer;
+        }
+
+        .social {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div>
+        <h1>WELCOME!!!</h1>
+
+    </div> -->
+
+    <!-- <h1>लग-इन गर्ने ठाउँ</h1>s -->
+    <div class="form-box">
+        <h2>
+            Login Here
+        </h2>
+        <form action="">
+
+
+            <div class="input-group">
+                <label for="USERNAME">Username</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="input-group">
+                <label for="USERNAME">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <button type="submit"> Submit⇒</button>
+
+        </form>
+
+        <p>Login With Your Social Media Account</p>
+        <div class="social">
+
+            <img src="../static/fb.png" alt="fb">
+            <img src="../static/insta.png" alt="in">
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
